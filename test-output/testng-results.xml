@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="14" passed="7" failed="4" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-20T15:03:44 ICT" name="Test Suite" finished-at="2023-04-20T15:03:44 ICT" duration-ms="288">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.demo(java.lang.String,java.lang.String)[pri:0, instance:section16_TestNGTutorial.Test.day1@47e2e487]" name="demo" class="section16_TestNGTutorial.Test.day1"/>
+        <method signature="day2_DataProvider.ploan()[pri:0, instance:section16_TestNGTutorial.Test.day2_DataProvider@1b11171f]" name="ploan" class="section16_TestNGTutorial.Test.day2_DataProvider"/>
+        <method signature="day4_homeLoan.mobileLoginHomeLoan()[pri:0, instance:section16_TestNGTutorial.Test.day4_homeLoan@71ba6d4e]" name="mobileLoginHomeLoan" class="section16_TestNGTutorial.Test.day4_homeLoan"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-04-20T15:03:44 ICT" name="Test Folder (Module: Personal Loan)" finished-at="2023-04-20T15:03:44 ICT" duration-ms="288">
+      <class name="section16_TestNGTutorial.Test.day2_DataProvider">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:section16_TestNGTutorial.Test.day2_DataProvider@1b11171f]" started-at="2023-04-20T15:03:44 ICT" name="prerequiste" finished-at="2023-04-20T15:03:44 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="pbalance()[pri:0, instance:section16_TestNGTutorial.Test.day2_DataProvider@1b11171f]" started-at="2023-04-20T15:03:44 ICT" name="pbalance" finished-at="2023-04-20T15:03:44 ICT" duration-ms="76" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at section16_TestNGTutorial.Test.day2_DataProvider.pbalance(day2_DataProvider.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pbalance -->
+        <test-method signature="pcredit(java.lang.String,java.lang.String)[pri:0, instance:section16_TestNGTutorial.Test.day2_DataProvider@1b11171f]" started-at="2023-04-20T15:03:44 ICT" name="pcredit" data-provider="getData" finished-at="2023-04-20T15:03:44 ICT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1stUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1stPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pcredit -->
+        <test-method signature="pcredit(java.lang.String,java.lang.String)[pri:0, instance:section16_TestNGTutorial.Test.day2_DataProvider@1b11171f]" started-at="2023-04-20T15:03:44 ICT" name="pcredit" data-provider="getData" finished-at="2023-04-20T15:03:44 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2ndUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2ndPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pcredit -->
+        <test-method signature="pcredit(java.lang.String,java.lang.String)[pri:0, instance:section16_TestNGTutorial.Test.day2_DataProvider@1b11171f]" started-at="2023-04-20T15:03:44 ICT" name="pcredit" data-provider="getData" finished-at="2023-04-20T15:03:44 ICT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3rdUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3rdPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pcredit -->
+        <test-method signature="pdeposit()[pri:0, instance:section16_TestNGTutorial.Test.day2_DataProvider@1b11171f]" started-at="2023-04-20T15:03:44 ICT" name="pdeposit" finished-at="2023-04-20T15:03:44 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdeposit -->
+        <test-method signature="ploan()[pri:0, instance:section16_TestNGTutorial.Test.day2_DataProvider@1b11171f]" started-at="2023-04-20T15:03:44 ICT" name="ploan" finished-at="2023-04-20T15:03:44 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- section16_TestNGTutorial.Test.day2_DataProvider -->
+      <class name="section16_TestNGTutorial.Test.day1">
+        <test-method signature="demo(java.lang.String,java.lang.String)[pri:0, instance:section16_TestNGTutorial.Test.day1@47e2e487]" started-at="2023-04-20T15:03:44 ICT" name="demo" finished-at="2023-04-20T15:03:44 ICT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method demo but has not been marked @Optional or defined
+in D:\Selenium\git_Udemy-Selenium-JAVA-Training\Udemy-SeleniumJAVA-RahulShetty\Tutorial_udemySeleniumJAVA_RahulShetty\testng_methods_In-Exclude.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method demo but has not been marked @Optional or defined
+in D:\Selenium\git_Udemy-Selenium-JAVA-Training\Udemy-SeleniumJAVA-RahulShetty\Tutorial_udemySeleniumJAVA_RahulShetty\testng_methods_In-Exclude.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="postconditions()[pri:0, instance:section16_TestNGTutorial.Test.day1@47e2e487]" started-at="2023-04-20T15:03:44 ICT" name="postconditions" finished-at="2023-04-20T15:03:44 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postconditions -->
+      </class> <!-- section16_TestNGTutorial.Test.day1 -->
+      <class name="section16_TestNGTutorial.Test.day3_carLoan">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:section16_TestNGTutorial.Test.day3_carLoan@4b0d79fc]" started-at="2023-04-20T15:03:44 ICT" name="beforeClass" finished-at="2023-04-20T15:03:44 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeEveryMethod()[pri:0, instance:section16_TestNGTutorial.Test.day3_carLoan@4b0d79fc]" started-at="2023-04-20T15:03:44 ICT" name="beforeEveryMethod" finished-at="2023-04-20T15:03:44 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryMethod -->
+        <test-method signature="mobileLoginCarLoan()[pri:0, instance:section16_TestNGTutorial.Test.day3_carLoan@4b0d79fc]" started-at="2023-04-20T15:03:44 ICT" name="mobileLoginCarLoan" finished-at="2023-04-20T15:03:44 ICT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method is-config="true" signature="afterEveryMethod()[pri:0, instance:section16_TestNGTutorial.Test.day3_carLoan@4b0d79fc]" started-at="2023-04-20T15:03:44 ICT" name="afterEveryMethod" finished-at="2023-04-20T15:03:44 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryMethod -->
+        <test-method signature="webLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:section16_TestNGTutorial.Test.day3_carLoan@4b0d79fc]" started-at="2023-04-20T15:03:44 ICT" name="webLoginCarLoan" finished-at="2023-04-20T15:03:44 ICT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method webLoginCarLoan but has not been marked @Optional or defined
+in D:\Selenium\git_Udemy-Selenium-JAVA-Training\Udemy-SeleniumJAVA-RahulShetty\Tutorial_udemySeleniumJAVA_RahulShetty\testng_methods_In-Exclude.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method webLoginCarLoan but has not been marked @Optional or defined
+in D:\Selenium\git_Udemy-Selenium-JAVA-Training\Udemy-SeleniumJAVA-RahulShetty\Tutorial_udemySeleniumJAVA_RahulShetty\testng_methods_In-Exclude.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method signature="APILoginCarLoan()[pri:0, instance:section16_TestNGTutorial.Test.day3_carLoan@4b0d79fc]" started-at="2023-04-20T15:03:44 ICT" name="APILoginCarLoan" finished-at="2023-04-20T15:03:44 ICT" depends-on-methods="section16_TestNGTutorial.Test.day3_carLoan.webLoginCarLoan, section16_TestNGTutorial.Test.day3_carLoan.mobileLoginCarLoan" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method day3_carLoan.APILoginCarLoan()[pri:0, instance:section16_TestNGTutorial.Test.day3_carLoan@4b0d79fc] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method day3_carLoan.APILoginCarLoan()[pri:0, instance:section16_TestNGTutorial.Test.day3_carLoan@4b0d79fc] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:section16_TestNGTutorial.Test.day3_carLoan@4b0d79fc]" started-at="2023-04-20T15:03:44 ICT" name="afterClass" finished-at="2023-04-20T15:03:44 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- section16_TestNGTutorial.Test.day3_carLoan -->
+    </test> <!-- Test Folder (Module: Personal Loan) -->
+    <test started-at="2023-04-20T15:03:44 ICT" name="Test Folder (Module: Car Loan)" finished-at="2023-04-20T15:03:44 ICT" duration-ms="143">
+      <class name="section16_TestNGTutorial.Test.day1">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:section16_TestNGTutorial.Test.day1@47e2e487]" started-at="2023-04-20T15:03:44 ICT" name="afterSuite" finished-at="2023-04-20T15:03:44 ICT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- section16_TestNGTutorial.Test.day1 -->
+      <class name="section16_TestNGTutorial.Test.day4_homeLoan">
+        <test-method signature="mobileLoginHomeLoan()[pri:0, instance:section16_TestNGTutorial.Test.day4_homeLoan@71ba6d4e]" started-at="2023-04-20T15:03:44 ICT" name="mobileLoginHomeLoan" finished-at="2023-04-20T15:03:44 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method signature="webLoginHomeLoan(java.lang.String,java.lang.String)[pri:0, instance:section16_TestNGTutorial.Test.day4_homeLoan@71ba6d4e]" started-at="2023-04-20T15:03:44 ICT" name="webLoginHomeLoan" finished-at="2023-04-20T15:03:44 ICT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method webLoginHomeLoan but has not been marked @Optional or defined
+in D:\Selenium\git_Udemy-Selenium-JAVA-Training\Udemy-SeleniumJAVA-RahulShetty\Tutorial_udemySeleniumJAVA_RahulShetty\testng_methods_In-Exclude.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method webLoginHomeLoan but has not been marked @Optional or defined
+in D:\Selenium\git_Udemy-Selenium-JAVA-Training\Udemy-SeleniumJAVA-RahulShetty\Tutorial_udemySeleniumJAVA_RahulShetty\testng_methods_In-Exclude.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+      </class> <!-- section16_TestNGTutorial.Test.day4_homeLoan -->
+      <class name="section16_TestNGTutorial.Test.day3_carLoan">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:section16_TestNGTutorial.Test.day3_carLoan@4b0d79fc]" started-at="2023-04-20T15:03:44 ICT" name="beforeSuite" finished-at="2023-04-20T15:03:44 ICT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- section16_TestNGTutorial.Test.day3_carLoan -->
+    </test> <!-- Test Folder (Module: Car Loan) -->
+  </suite> <!-- Test Suite -->
+</testng-results>

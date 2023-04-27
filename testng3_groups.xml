@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Test Suite">
+  
+    <test thread-count="5" name="Regression">
+    <groups>
+      <run>
+      	<!-- <include name="Smoke"/> -->
+      	<exclude name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="section16_TestNGTutorial.Test.day1"/>
+      <class name="section16_TestNGTutorial.Test.day2_DataProvider"/>
+      <class name="section16_TestNGTutorial.Test.day3_carLoan"/>
+      <class name="section16_TestNGTutorial.Test.day4_homeLoan"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

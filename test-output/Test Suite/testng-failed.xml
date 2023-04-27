@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test Folder (Module: Personal Loan)(failed)">
+    <classes>
+      <class name="section16_TestNGTutorial.Test.day1">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="demo"/>
+          <include name="postconditions"/>
+        </methods>
+      </class> <!-- section16_TestNGTutorial.Test.day1 -->
+      <class name="section16_TestNGTutorial.Test.day2_DataProvider">
+        <methods>
+          <include name="pbalance"/>
+          <include name="prerequiste"/>
+        </methods>
+      </class> <!-- section16_TestNGTutorial.Test.day2_DataProvider -->
+      <class name="section16_TestNGTutorial.Test.day3_carLoan">
+        <methods>
+          <include name="APILoginCarLoan"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="mobileLoginCarLoan"/>
+          <include name="beforeClass"/>
+          <include name="beforeEveryMethod"/>
+          <include name="webLoginCarLoan"/>
+          <include name="afterEveryMethod"/>
+        </methods>
+      </class> <!-- section16_TestNGTutorial.Test.day3_carLoan -->
+    </classes>
+  </test> <!-- Test Folder (Module: Personal Loan)(failed) -->
+  <test thread-count="5" parallel="tests" name="Test Folder (Module: Car Loan)(failed)">
+    <classes>
+      <class name="section16_TestNGTutorial.Test.day4_homeLoan">
+        <methods>
+          <include name="webLoginHomeLoan"/>
+        </methods>
+      </class> <!-- section16_TestNGTutorial.Test.day4_homeLoan -->
+    </classes>
+  </test> <!-- Test Folder (Module: Car Loan)(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
