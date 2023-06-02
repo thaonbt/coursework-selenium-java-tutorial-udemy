@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="TestDemo_BrowserStack(failed)" verbose="0">
+    <classes>
+      <class name="section31_CrossBrowserTest_onCloud_with3rdPartyVendors.TestDemo_BrowserStack">
+        <methods>
+          <include name="titleCheck"/>
+        </methods>
+      </class> <!-- section31_CrossBrowserTest_onCloud_with3rdPartyVendors.TestDemo_BrowserStack -->
+    </classes>
+  </test> <!-- TestDemo_BrowserStack(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
