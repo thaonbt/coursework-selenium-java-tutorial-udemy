@@ -48,7 +48,7 @@ public class scroll_JavaScriptExecutorDemo {
 		driver.findElement(By.className("totalAmount")).getText();	// -> Total Amount Collected: 296
 		int actualTotal = Integer.parseInt(driver.findElement(By.className("totalAmount")).getText().split(":")[1].trim());
 		
-		Assert.assertEquals(expectedTotal, actualTotal);
+		Assert.assertTrue(expectedTotal==actualTotal);
 	}
 
 

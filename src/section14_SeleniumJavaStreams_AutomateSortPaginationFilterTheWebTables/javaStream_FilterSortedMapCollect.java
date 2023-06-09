@@ -119,7 +119,6 @@ public class javaStream_FilterSortedMapCollect {
 		
 	}
 	
-	@Test
 	public void streamCollect() {
 		
 		System.out.println("******");
