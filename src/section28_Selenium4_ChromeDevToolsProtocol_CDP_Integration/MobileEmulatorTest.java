@@ -5,7 +5,7 @@ import java.util.Optional;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
-import org.openqa.selenium.devtools.v113.emulation.Emulation;
+import org.openqa.selenium.devtools.v131.emulation.Emulation;
 
 public class MobileEmulatorTest {
 
@@ -26,8 +26,8 @@ public class MobileEmulatorTest {
 //		Commands can be explored through this site, https://chromedevtools.github.io/devtools-protocol/
 		
 //		https://chromedevtools.github.io/devtools-protocol/tot/Emulation/#method-setDeviceMetricsOverride
-		devTools.send(Emulation.setDeviceMetricsOverride(600, 1000, 50, true, Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty()));
-		
+		devTools.send(Emulation.setDeviceMetricsOverride(600, 1000, 50, true, Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(), Optional.empty(),Optional.empty()));
+
 		driver.get("https://rahulshettyacademy.com/angularAppdemo/");
 		
 		driver.findElement(By.cssSelector(".navbar-toggler")).click();

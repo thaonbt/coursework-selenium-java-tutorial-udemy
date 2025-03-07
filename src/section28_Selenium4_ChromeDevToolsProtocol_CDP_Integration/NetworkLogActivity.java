@@ -8,10 +8,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.devtools.DevTools;
-import org.openqa.selenium.devtools.v113.emulation.Emulation;
-import org.openqa.selenium.devtools.v113.network.Network;
-import org.openqa.selenium.devtools.v113.network.model.Request;
-import org.openqa.selenium.devtools.v113.network.model.Response;
+import org.openqa.selenium.devtools.v131.emulation.Emulation;
+import org.openqa.selenium.devtools.v131.network.Network;
+import org.openqa.selenium.devtools.v131.network.model.Request;
+import org.openqa.selenium.devtools.v131.network.model.Response;
 
 public class NetworkLogActivity {
 
