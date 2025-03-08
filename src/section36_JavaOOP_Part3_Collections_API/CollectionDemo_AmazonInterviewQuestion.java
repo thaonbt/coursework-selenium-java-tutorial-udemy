@@ -10,7 +10,6 @@ import java.util.ArrayList;
 public class CollectionDemo_AmazonInterviewQuestion {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		int arr[] = {4,5,5,5,4,6,6,9,4};
 		// print unique number from the list - Amazon interview

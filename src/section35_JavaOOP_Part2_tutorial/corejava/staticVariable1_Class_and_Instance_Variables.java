@@ -26,7 +26,7 @@ public class staticVariable1_Class_and_Instance_Variables {
 		System.out.println(i);
 	}
 	
-	public String getAdress() {
+	public String getAddress() {
 		return address + " " + city;
 	}
 	
@@ -37,7 +37,6 @@ public class staticVariable1_Class_and_Instance_Variables {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 //		StaticVariable obj = new StaticVariable("Bob", "Marthalli", "Bangalore");
 //		StaticVariable obj1 = new StaticVariable("Ram", "Jayangar", "Bangalore");
@@ -50,14 +49,14 @@ public class staticVariable1_Class_and_Instance_Variables {
 		staticVariable1_Class_and_Instance_Variables obj1 = new staticVariable1_Class_and_Instance_Variables("Ram", "Jayangar");
 		
 		System.out.println("*** Call objects method (default) ***");
-		System.out.println(obj.getAdress());
-		System.out.println((obj1.getAdress()));
+		System.out.println(obj.getAddress());
+		System.out.println((obj1.getAddress()));
 		
 		System.out.println("*** Call objects method (after update Instance Variables ***)");
 		obj.city = "Indi";
 
-		System.out.println(obj.getAdress());
-		System.out.println((obj1.getAdress()));
+		System.out.println(obj.getAddress());
+		System.out.println((obj1.getAddress()));
 		
 		System.out.println("*** Call static method ***");
 		staticVariable1_Class_and_Instance_Variables.getCity();

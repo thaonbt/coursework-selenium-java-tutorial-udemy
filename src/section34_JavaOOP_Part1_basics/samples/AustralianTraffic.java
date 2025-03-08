@@ -6,7 +6,6 @@ import section34_JavaOOP_Part1_basics.interfaces.ContinentalTraffic;
 public class AustralianTraffic implements CentralTraffic, ContinentalTraffic{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// create an object for AustralianTraffic
 		// to implement methods presenting in CentralTraffic interface
@@ -32,19 +31,16 @@ public class AustralianTraffic implements CentralTraffic, ContinentalTraffic{
 
 	@Override
 	public void greenGo() {
-		// TODO Auto-generated method stub
 		System.out.println("greenGo implementation");
 	}
 
 	@Override
 	public void redStop() {
-		// TODO Auto-generated method stub
 		System.out.println("redStop implementation");
 	}
 
 	@Override
 	public void yellowFlash() {
-		// TODO Auto-generated method stub
 		System.out.println("yellowFlash implementation");
 	}
 

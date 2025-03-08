@@ -22,7 +22,6 @@ public class keywordDemo_this_1 {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		keywordDemo_this_1 td = new keywordDemo_this_1();
 		td.getData();
 	}

@@ -14,7 +14,6 @@ public class javaStream_performWebTable_Sorting {
 	
 	@Test
 	public void sortColumn() {
-		// TODO Auto-generated method stub
 		
 		/** Veriy sorted column */
 		WebDriver driver = new ChromeDriver();

@@ -19,7 +19,6 @@ public class exceptionDemo_try_catch {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 //		exceptionDemo ed = new exceptionDemo();
 //		ed.getData();						// -> Exception in thread "main" java.lang.ArithmeticException: / by zero
@@ -48,8 +47,7 @@ public class exceptionDemo_try_catch {
 			// This block is executed irrespective of exception thrown or not
 			System.out.println("from 'finally' block");
 		}
-		
-		
+
 	}
 
 }

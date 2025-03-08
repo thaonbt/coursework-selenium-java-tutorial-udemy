@@ -11,7 +11,6 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
-
 /**
  * 
  * Selenium GRID - a smart proxy server that make it be easy to run tests in parallel on multiple machines
@@ -30,7 +29,6 @@ import org.openqa.selenium.remote.RemoteWebDriver;
  *  5. Selenium grid can be seen at http://localhost:4444
  *
  */
-
 
 public class RSATest {
 

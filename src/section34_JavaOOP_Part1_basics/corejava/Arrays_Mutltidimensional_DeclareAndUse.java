@@ -16,9 +16,8 @@ package section34_JavaOOP_Part1_basics.corejava;
 public class Arrays_Mutltidimensional_DeclareAndUse {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-		int intArr_a[][] = new int[2][3];	// -> Arrays has 2 Rows, 3 Columns
+		int[][] intArr_a = new int[2][3];	// -> Arrays has 2 Rows, 3 Columns
 		
 		intArr_a[0][0] = 2;
 		intArr_a[0][1] = 4;
@@ -28,7 +27,7 @@ public class Arrays_Mutltidimensional_DeclareAndUse {
 		intArr_a[1][1] = 4;
 		intArr_a[1][2] = 7;
 		
-		int intArr_b[][] = {{2,4,5}, {3,4,7}, {5,2,1}};
+		int[][] intArr_b = {{2,4,5}, {3,4,7}, {5,2,1}};
 		
 		// print 2nd Row, 1st Column
 		System.out.println("*** Array 'intArr_a', 2nd Row, 1st Column ***");
@@ -44,12 +43,12 @@ public class Arrays_Mutltidimensional_DeclareAndUse {
 //		}
 		
 		System.out.println("*** Array 'intArr_a', all values ***");
-		for(int i=0; i<intArr_a.length; i++) {				// Outer loop: row
-			for(int j=0; j<intArr_a[i].length; j++) {		// Inner loop: column
-				System.out.print(intArr_a[i][j] + "\t");
-			}
-			System.out.println("");
-		}
+        for (int[] ints : intArr_a) {                // Outer loop: row
+            for (int anInt : ints) {        // Inner loop: column
+                System.out.print(anInt + "\t");
+            }
+            System.out.println();
+        }
 		
 //		System.out.println("*** Array 'intArr_b', all values ***");
 //		for(int i=0; i<intArr_a.length; i++) {
@@ -61,12 +60,12 @@ public class Arrays_Mutltidimensional_DeclareAndUse {
 //		}
 		
 		System.out.println("*** Array 'intArr_b', all values ***");
-		for(int i=0; i<intArr_b.length; i++) {
-			for(int j=0; j<intArr_b[i].length; j++) {
-				System.out.print(intArr_b[i][j] + "\t");
-			}
-			System.out.println("");
-		}
+        for (int[] ints : intArr_b) {
+            for (int anInt : ints) {
+                System.out.print(anInt + "\t");
+            }
+            System.out.println();
+        }
 	}
 
 }

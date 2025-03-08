@@ -13,7 +13,6 @@ import org.testng.Assert;
 public class Assignment2 {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 
 		String strName = "ThaoNBT";
 		String strEmail = "ThaoNBT@domain.com";
@@ -21,8 +20,8 @@ public class Assignment2 {
 		String strGender = "Female";
 		String strEmploymentStatus = "Student";
 		String strDOB = "01/01/1986";
-		
-		System.setProperty("webdriver.chrome.driver", "D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
+
+//		System.setProperty("webdriver.chrome.driver", "D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://rahulshettyacademy.com/angularpractice/");
