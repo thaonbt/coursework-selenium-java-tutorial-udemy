@@ -16,14 +16,11 @@ import org.openqa.selenium.devtools.v131.network.model.Response;
 public class NetworkLogActivity {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 		
 //		STEP 1 - Initiate Chromium Driver (which is Chrome Driver)
 		ChromeDriver driver = new ChromeDriver();
-		
-		
+
 		//log file
-		
 		
 //		STEP 2 - Create object for the Chrome DevTools with "getDevTools()" method
 //		         which allows to send() the built-in Selenium commands for CDP (Chrome DevTools Protocol)    

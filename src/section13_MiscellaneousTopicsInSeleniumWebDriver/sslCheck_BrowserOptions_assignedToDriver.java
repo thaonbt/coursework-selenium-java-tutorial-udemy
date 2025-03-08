@@ -9,15 +9,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-/**
- * ChromeOptions
- * https://chromedriver.chromium.org/capabilities
- */
+/*ChromeOptions
+https://chromedriver.chromium.org/capabilities*/
 
 public class sslCheck_BrowserOptions_assignedToDriver {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://expired.badssl.com/");

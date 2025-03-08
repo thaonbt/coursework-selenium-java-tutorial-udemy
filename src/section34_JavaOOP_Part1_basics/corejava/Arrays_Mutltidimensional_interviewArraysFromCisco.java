@@ -11,7 +11,6 @@ package section34_JavaOOP_Part1_basics.corejava;
 public class Arrays_Mutltidimensional_interviewArraysFromCisco {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		int intArr[][] = {{2,4,5}, {3,0,7}, {5,9,1}};
 		

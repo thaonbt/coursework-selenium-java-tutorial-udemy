@@ -8,7 +8,6 @@ package section34_JavaOOP_Part1_basics.corejava;
 public class Arrays_DeclareAndUse {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		int integer = 4;					// -> Single variable
 		

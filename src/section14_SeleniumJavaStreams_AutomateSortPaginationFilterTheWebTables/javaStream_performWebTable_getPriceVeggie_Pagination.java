@@ -14,7 +14,6 @@ public class javaStream_performWebTable_getPriceVeggie_Pagination {
 	
 	@Test
 	public void printPriceVeggie() {
-		// TODO Auto-generated method stub
 		
 		/** Print price of a vegetable */
 		WebDriver driver = new ChromeDriver();

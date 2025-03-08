@@ -6,7 +6,6 @@ public class PS2 extends PS3{
 	
 	//default constructor
 	public PS2(int a) {
-		// TODO Auto-generated constructor stub
 		super(a);	//Parent class constructor is invoked
 		this.a = a;
 	}

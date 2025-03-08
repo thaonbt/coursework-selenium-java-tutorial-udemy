@@ -15,15 +15,14 @@ import org.testng.asserts.SoftAssert;
 public class brokenLinks_HttpURLConnecion_softAssert {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		
-		/** Broken links */
-		//Step 1 - IS to get all urls tied up to the links using Selenium 
-		//Java methods will call URL's and gets the status code
-		//if status code is >400 th that url is not working -> link which tied up with the url is broken
+		/* Broken links
+		Step 1 - IS to get all urls tied up to the links using Selenium
+		Java methods will call URL's and gets the status code
+		if status code is >400 th that url is not working -> link which tied up with the url is broken*/
 		
 		SoftAssert softAssert = new SoftAssert();
 		
@@ -39,7 +38,7 @@ public class brokenLinks_HttpURLConnecion_softAssert {
 			int respCode = conn.getResponseCode();
 			System.out.println(respCode);
 			
-			/**test will stop whenever have a fail Assertion, and skip remain assertions */
+			/* test will stop whenever have a fail Assertion, and skip remain assertions */
 //			if(respCode > 400) {
 //				System.out.println("The link with Text: '" + link.getText() + "' is broken with code " + respCode + " and URL is'" + url + "'.");
 //				Assert.assertTrue(false);
@@ -47,7 +46,7 @@ public class brokenLinks_HttpURLConnecion_softAssert {
 //			//equal to the above IF-condition
 //			Assert.assertTrue(respCode < 400, "The link with text '" + link.getText() + "' is broken with code " + respCode + " and URL is'" + url + "'.");
 			
-			/** use SoftAssert to avoid stop when failures */
+			/* use SoftAssert to avoid stop when failures */
 			softAssert.assertTrue(respCode < 400, "The link with text '" + link.getText() + "' is broken with code " + respCode + " and URL is'" + url + "'.");
 		}
 		

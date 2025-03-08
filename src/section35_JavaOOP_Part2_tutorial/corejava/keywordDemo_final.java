@@ -24,9 +24,6 @@ final class keywordDemo_final {
 //	final void getData() {
 //		
 //	}
-	
-	
-	
 
 	final int i = 4;		// Constant Variables which cannot be changed
 	

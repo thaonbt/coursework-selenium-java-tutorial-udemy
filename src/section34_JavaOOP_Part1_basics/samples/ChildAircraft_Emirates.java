@@ -5,7 +5,6 @@ import section34_JavaOOP_Part1_basics.abstracts.ParentAircraft;
 public class ChildAircraft_Emirates extends ParentAircraft{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		ChildAircraft_Emirates childEmirates = new ChildAircraft_Emirates();
 		childEmirates.safetyGuideline();
@@ -20,7 +19,6 @@ public class ChildAircraft_Emirates extends ParentAircraft{
 
 	@Override
 	public void bodyColor() {
-		// TODO Auto-generated method stub
 		System.out.println("from ChildEmirates: Red color on the body");
 	}
 

@@ -8,9 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Locators {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		// implicit wait - # seconds timeout -> wait for showing

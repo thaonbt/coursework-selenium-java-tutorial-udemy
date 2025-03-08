@@ -15,15 +15,15 @@ public class keywordDemo_constructor {
 	/** Default constructor (without parameters) */
 	public keywordDemo_constructor() {
 		
-		// this will be executes whenever 'constructDemo' is created
+		// this will be executed whenever 'constructDemo' is created
 		
 		System.out.println("Constructor from constructDemo.class");
 	}
 	
-	/** Constructor with parameters) */
+	/** Constructor with parameters */
 	public keywordDemo_constructor(int a, int b) {
 		
-		// this will be executes whenever 'constructDemo' is created
+		// this will be executed whenever 'constructDemo' is created
 		
 		System.out.println("Parameterized(int a, int b) Constructor from constructDemo.class");
 		System.out.println("multiple is: " + a*b);
@@ -31,7 +31,7 @@ public class keywordDemo_constructor {
 	
 	public keywordDemo_constructor(String arg) {
 		
-		// this will be executes whenever 'constructDemo' is created
+		// this will be executed whenever 'constructDemo' is created
 		
 		System.out.println("Parameterized(String arg) Constructor from constructDemo.class");
 	}
@@ -43,7 +43,6 @@ public class keywordDemo_constructor {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		keywordDemo_constructor constructDemo = new keywordDemo_constructor();
 		

@@ -14,17 +14,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class base {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 
 		String[] itemsNeeded = { "Cucumber", "Brocolli" };
 //		int j = 0;
 
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver",
+//				"D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		//Implicit wait
-//		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS); <- this is deprecated.
+//		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);    <- this is deprecated.
 //		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));  <- Know where is the delay to use the Explicit wait instead, to 
 //		                                                                       (1) improve performance; 
 //		                                                                       (2) avoid to miss aut issues which occors in seconds only

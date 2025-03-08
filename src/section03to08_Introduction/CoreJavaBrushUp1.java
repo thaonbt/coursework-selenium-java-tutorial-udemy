@@ -3,8 +3,7 @@ package section03to08_Introduction;
 public class CoreJavaBrushUp1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
 		int myNum = 5;
 		String website = "Rahul Shetty Academy";
 		char letter = 'r';

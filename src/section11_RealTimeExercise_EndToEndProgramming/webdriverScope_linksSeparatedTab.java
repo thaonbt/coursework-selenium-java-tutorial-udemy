@@ -13,10 +13,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class webdriverScope_linksSeparatedTab {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver",
+//				"D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
@@ -31,22 +30,22 @@ public class webdriverScope_linksSeparatedTab {
 		System.out.println(footerdriver.findElements(By.tagName("a")).size());
 		
 //3. Give me the count of links on the footer section, 1st column only
-		WebElement coulmndriver = footerdriver.findElement(By.xpath("//table/tbody/tr/td[1]/ul"));
-		System.out.println(coulmndriver.findElements(By.tagName("a")).size());
+		WebElement columndriver = footerdriver.findElement(By.xpath("//table/tbody/tr/td[1]/ul"));
+		System.out.println(columndriver.findElements(By.tagName("a")).size());
 		
 //4. Click on each link in the column and check if the pages are opening
 		//because the column header link is a fake one, so we start from 1 instead of 0
 		ArrayList<String> linksList = new ArrayList<String>();
-		int columnTotalLinks = coulmndriver.findElements(By.tagName("a")).size();
+		int columnTotalLinks = columndriver.findElements(By.tagName("a")).size();
 		//open links on separated tabs
 		for(int i=1; i<columnTotalLinks; i++) 
 		{
 			String clickonlinkTab = Keys.chord(Keys.CONTROL, Keys.ENTER);
-			coulmndriver.findElements(By.tagName("a")).get(i).sendKeys(clickonlinkTab);			
+			columndriver.findElements(By.tagName("a")).get(i).sendKeys(clickonlinkTab);
 			//Wait for complete opening
 			Thread.sleep(5000L);
-//			System.out.println(coulmndriver.findElements(By.tagName("a")).get(i).getText());
-			linksList.add(coulmndriver.findElements(By.tagName("a")).get(i).getText());
+//			System.out.println(columndriver.findElements(By.tagName("a")).get(i).getText());
+			linksList.add(columndriver.findElements(By.tagName("a")).get(i).getText());
 		}
 		
 		//go to each tab to get the title

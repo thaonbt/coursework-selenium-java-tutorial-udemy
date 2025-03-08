@@ -14,33 +14,33 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class calendar {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		/**https://stackoverflow.com/questions/7182996/java-get-month-integer-from-date*/
-//		//Before Java 8
-//		java.util.Date date= new Date();
-//		Calendar cal = Calendar.getInstance();
-//		cal.setTime(date);
-//		int month = cal.get(Calendar.MONTH);
-//		
-//		//From Java 8
-//		Date date = new Date();
-//		LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
-//		int month = localDate.getMonthValue();
-//		//OR
-//		LocalDate today = LocalDate.now();
-//		int month = today.getMonthValue();
-//		//OR
-//		//convert date to datetime
-//		DateTime datetime = new DateTime(date);
-//		int monthInt = dateTime.getMonthOfYear();
-//		int month = Integer.parseInt(datetime.toString("MM"))
+
+
+		/** https://stackoverflow.com/questions/7182996/java-get-month-integer-from-date */
+		/*Before Java 8
+		java.util.Date date= new Date();
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(date);
+		int month = cal.get(Calendar.MONTH);*/
+
+		/*//From Java 8
+		Date date = new Date();
+		LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+		int month = localDate.getMonthValue();
+		//OR
+		LocalDate today = LocalDate.now();
+		int month = today.getMonthValue();
+		//OR
+		//convert date to datetime
+		DateTime datetime = new DateTime(date);
+		int monthInt = dateTime.getMonthOfYear();
+		int month = Integer.parseInt(datetime.toString("MM"))*/
 		
 		/** https://stackoverflow.com/questions/4216745/java-string-to-date-conversion */
-//		String string = "January 2, 2010";
-//		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH);
-//		LocalDate date = LocalDate.parse(string, formatter);
-//		System.out.println(date); // 2010-01-02
+		/*String string = "January 2, 2010";
+		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH);
+		LocalDate date = LocalDate.parse(string, formatter);
+		System.out.println(date); // 2010-01-02*/
 		
 		/** https://www.edureka.co/blog/convert-string-to-date-in-java/ */
 		
@@ -53,7 +53,7 @@ public class calendar {
 		String date = "14";
 		
 		WebElement calendarEle = driver.findElement(By.id("form-field-travel_comp_date"));
-		WebElement yearEle = driver.findElement(By.className("cur-month"));
+		WebElement yearEle = driver.findElement(By.className("cur-year"));
 		WebElement currentMonthEle = driver.findElement(By.className("cur-month"));
 		//Grab common attribute -> put into List and iterate
 		List<WebElement> dateEleList = driver.findElements(By.className("flatpickr-day"));

@@ -10,7 +10,6 @@ import org.openqa.selenium.devtools.DevTools;
 public class CdpCommandsTest {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 		
 //		STEP 1 - Initiate Chromium Driver (which is Chrome Driver)
 		ChromeDriver driver = new ChromeDriver();

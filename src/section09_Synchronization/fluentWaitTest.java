@@ -29,8 +29,8 @@ public class fluentWaitTest {
 		 * https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/ui/FluentWait.html
 		 */
 		
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver",
+//				"D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
 		
