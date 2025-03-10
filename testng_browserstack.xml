@@ -5,7 +5,7 @@
   
   <test thread-count="5" name="TestDemo_BrowserStack">
     <classes>
-      <class name="section31_CrossBrowserTest_onCloud_with3rdPartyVendors.TestDemo_BrowserStack"/>
+      <class name="z_outdated_section31_CrossBrowserTest_onCloud_with3rdPartyVendors.TestDemo_BrowserStack"/>
     </classes>
   </test> <!-- Test -->
   
