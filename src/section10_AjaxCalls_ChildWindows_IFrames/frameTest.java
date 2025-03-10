@@ -9,7 +9,6 @@ import org.openqa.selenium.interactions.Actions;
 public class frameTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 //		System.setProperty("webdriver.chrome.driver",
 //				"D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");

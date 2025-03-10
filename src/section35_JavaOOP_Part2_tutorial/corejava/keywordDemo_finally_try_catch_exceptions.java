@@ -2,9 +2,6 @@ package section35_JavaOOP_Part2_tutorial.corejava;
 
 public class keywordDemo_finally_try_catch_exceptions {
 	int i = 4;
-	
-	
-
 
 	public static void main(String[] args) {
 		int b = 7;
@@ -16,7 +13,6 @@ public class keywordDemo_finally_try_catch_exceptions {
 	
 				System.out.println(arr[7]);
 				System.out.println(k);
-				
 			
 		}
 //		catch (IndexOutOfBoundsException est)
@@ -32,11 +28,9 @@ public class keywordDemo_finally_try_catch_exceptions {
 //			System.out.println("I catch error/exception");
 //		}
 		finally
-		
 		{
 			System.out.println("Delete cookies");
 			//This block is executed irrespective of execution err or not
-
 		
 		}
 	

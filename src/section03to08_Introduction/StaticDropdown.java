@@ -11,9 +11,8 @@ import org.openqa.selenium.support.ui.Select;
 public class StaticDropdown {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");

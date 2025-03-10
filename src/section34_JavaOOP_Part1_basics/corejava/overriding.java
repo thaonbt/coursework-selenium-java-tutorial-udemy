@@ -5,7 +5,6 @@ import section34_JavaOOP_Part1_basics.abstracts.ParentVehicle;
 public class overriding extends ParentVehicle {
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		overriding o = new overriding();
 		

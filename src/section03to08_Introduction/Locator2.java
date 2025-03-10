@@ -9,11 +9,10 @@ import org.testng.Assert;
 public class Locator2 {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
 
 		String name = "Rahuls";
 		
-		System.setProperty("webdriver.chrome.driver", "D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
+//		System.setProperty("webdriver.chrome.driver", "D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
 		// implicit wait - # seconds timeout -> wait for showing
@@ -41,7 +40,7 @@ public class Locator2 {
 		Thread.sleep(1000);
 		driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
 		String passwordText = driver.findElement(By.cssSelector("form p")).getText();
-		//Please use themporary password 'rahulshettyacademy' to Login.
+		//Please use temporary password 'rahulshettyacademy' to Login.
 		String[] passwordArray = passwordText.split("'");
 		//0th index - Please use themporary password '
 		//1st index - rahulshettyacademy' to Login.

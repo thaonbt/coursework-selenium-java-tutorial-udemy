@@ -12,7 +12,6 @@ import java.util.Iterator;
 public class Set_HashSet_Iterator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		hashSetDemo();
 		

@@ -2,6 +2,9 @@ package section15_Selenium4_LatestFeature;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.FileSystems;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Iterator;
 import java.util.Set;
 
@@ -16,7 +19,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class sel4_multiWindowOrTab_webElementPartialScreenshot {
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
 		
 //		Land on 'https://rahulshettyacademy.com'
 //		Capture 1st course name
@@ -46,8 +48,11 @@ public class sel4_multiWindowOrTab_webElementPartialScreenshot {
 		
 		/** WebElement partial screenshot */
 		File srcFile = name.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(srcFile, new File("logo.png"));
-		
+//		FileUtils.copyFile(srcFile, new File("logo.png"));
+		String fileSeparator = FileSystems.getDefault().getSeparator();
+		Path resourcesPath = Paths.get("src", "section15_Selenium4_LatestFeature","screenshot");
+		FileUtils.copyFile(srcFile, new File(System.getProperty("user.dir")+fileSeparator+resourcesPath+fileSeparator+"logo.png"));
+
 		/** WebElement widht height*/
 		System.out.println(name.getRect().getDimension().getWidth());
 		System.out.println(name.getRect().getDimension().getHeight());

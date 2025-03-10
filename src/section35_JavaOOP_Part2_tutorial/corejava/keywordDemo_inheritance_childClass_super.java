@@ -34,7 +34,6 @@ public class keywordDemo_inheritance_childClass_super extends keywordDemo_inheri
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		/** 'Super' keyword */
 		keywordDemo_inheritance_childClass_super m = new keywordDemo_inheritance_childClass_super();

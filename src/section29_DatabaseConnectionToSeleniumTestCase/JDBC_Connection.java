@@ -9,7 +9,6 @@ import java.sql.Statement;
 public class JDBC_Connection {
 
 	public static void main(String[] args) throws SQLException {
-		// TODO Auto-generated method stub
 
 		String dbHost = "localhost";
 		String dbPort = "3306";

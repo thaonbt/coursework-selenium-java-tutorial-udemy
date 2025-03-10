@@ -22,7 +22,7 @@ public class staticVariable2_StaticBlocks extends keywordDemo_public_private_pro
 		protectedMethod();
 	}
 	
-	public String getAdress() {
+	public String getAddress() {
 		return address + " " + city;
 	}
 	
@@ -33,7 +33,6 @@ public class staticVariable2_StaticBlocks extends keywordDemo_public_private_pro
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 //		StaticVariable obj = new StaticVariable("Bob", "Marthalli", "Bangalore");
 //		StaticVariable obj1 = new StaticVariable("Ram", "Jayangar", "Bangalore");
@@ -46,14 +45,14 @@ public class staticVariable2_StaticBlocks extends keywordDemo_public_private_pro
 		staticVariable2_StaticBlocks obj1 = new staticVariable2_StaticBlocks("Ram", "Jayangar");
 		
 		System.out.println("*** Call objects method (default) ***");
-		System.out.println(obj.getAdress());
-		System.out.println((obj1.getAdress()));
+		System.out.println(obj.getAddress());
+		System.out.println((obj1.getAddress()));
 		
 		System.out.println("*** Call objects method (after update Instance Variables ***)");
 		obj.city = "Indi";
 
-		System.out.println(obj.getAdress());
-		System.out.println((obj1.getAdress()));
+		System.out.println(obj.getAddress());
+		System.out.println((obj1.getAddress()));
 		
 		System.out.println("*** Call static method ***");
 		staticVariable2_StaticBlocks.getCity();

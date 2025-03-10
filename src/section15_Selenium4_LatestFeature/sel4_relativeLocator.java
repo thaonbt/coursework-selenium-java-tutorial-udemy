@@ -9,7 +9,7 @@ import static org.openqa.selenium.support.locators.RelativeLocator.*;
 public class sel4_relativeLocator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		/**
 		 * Selenium 4.0 - Relative Locators
 		 *  - above()		: element located above with respect to the specified element

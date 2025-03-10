@@ -12,11 +12,14 @@ import org.testng.annotations.Test;
 public class javaStream_FilterSortedMapCollect {
 
 	/** Java Streams (from version 8) */
+
 	/** What are Streams? 
 	 *  Stream API is new feature available from Java 8
-	 *  By using streams, we can perform various aggregate operations on the data returned from collections classes
+	 *  By using streams, we can perform various aggregate operations
+	 *  on the data returned from collections classes
 	 *  by drastically reduce the complexity of code
 	 */
+
 	/** What is Lambda Expressions?
 	 *  Lambda Expression introduce the new arrow operator -> into Java.
 	 *  It divides the lambda expression in 2 parts:
@@ -27,7 +30,6 @@ public class javaStream_FilterSortedMapCollect {
 	
 //	@Test
 	public void forLoop() {
-		// TODO Auto-generated method stub
 
 		//Count the number of names starting with alphabet A in list
 		ArrayList<String> names = new ArrayList<String>();

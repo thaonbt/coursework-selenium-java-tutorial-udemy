@@ -11,16 +11,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class webDriverWaitTest {
 
 	public static void main(String[] args) {
-		/** There are 2 ways to achieve SYNCHRONIZATION in Selenium Webdriver 
-		 * - ExplicitWait 
-		 *   |- WebDriverWait
-		 *   |- FluentWait
-		 * - ImplicitWait
-		 */
-		
-		
-		System.setProperty("webdriver.chrome.driver",
-				"D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
+
+		/*There are 2 ways to achieve SYNCHRONIZATION in Selenium Webdriver
+		 - ExplicitWait
+		    |- WebDriverWait
+		    |- FluentWait
+		 	|- ImplicitWait*/
+
+//		System.setProperty("webdriver.chrome.driver",
+//				"D:\\Khau\\Udemy-course_SeleniumJAVA\\browser-driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://the-internet.herokuapp.com/dynamic_loading/1");
 		

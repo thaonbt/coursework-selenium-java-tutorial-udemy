@@ -12,9 +12,9 @@ import java.util.Set;
  * - but have slightly difference
  *   |-1. Synchronisation (or Thread Safe) - this is the most important different
  *   |      |- HashMap: is non-synchronised and not thread safe => use when not require any multi-threading tasks
- *   |		|   (means: 5 threads work on this HashMap concurrently
+ *   |		|   (means: 5 threads work on this HashMap concurrently)
  *   |      |- Hashtable: is synchronised and thread safe		=> use when require multi-threading tasks
- *   |		|   (means: when there is 1 access to this Hashtable, others need to wait
+ *   |		|   (means: when there is 1 access to this Hashtable, others need to wait)
  *   |		|
  *   |-2. Null keys and Null values  
  *   |      |- HashMap: allows 1 null key, and any null values

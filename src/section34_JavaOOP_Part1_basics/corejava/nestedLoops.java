@@ -3,7 +3,6 @@ package section34_JavaOOP_Part1_basics.corejava;
 public class nestedLoops {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		/** nested loops works */
 		for(int i=0; i<=4; i++) {			// this block will loop for 4 times

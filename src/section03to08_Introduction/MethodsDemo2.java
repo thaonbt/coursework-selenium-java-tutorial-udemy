@@ -3,7 +3,7 @@ package section03to08_Introduction;
 public class MethodsDemo2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		MethodsDemo2 d = new MethodsDemo2();
 		String name = d.getUserData();
 		System.out.println(name);
